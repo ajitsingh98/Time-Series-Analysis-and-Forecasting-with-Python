@@ -58,10 +58,10 @@
 
 - **[Time Series Forecasting with Deep Learning](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time-Series-Forecasting-Deep-Learning.ipynb)**
 
-    - MLPs for time series forecasting
+    - MLPs for time series forecasting(under construction)
     - LSTMs for time series forecasting
-    - CNNs for time series forecasting
-    - Transformers for time series forecasting
+    - CNNs for time series forecasting(under construction)
+    - Transformers for time series forecasting(under construction)
 
 
 
