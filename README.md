@@ -4,6 +4,14 @@
 
 ## Contents
 
+- **[Introduction to Time Series Analysis](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Introduction_TSA.md)**
+  
+     - Taxonomy of Time Series Analysis Domain
+     - Best Practices for Forecasting Model Selection
+     - Simple and Classical Forecasting Methods
+     - Time Series to Supervised Learning Problem
+     - Deep Learning for Time Series Forecasting
+
 - **[Time Series Data Visualization](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Data_Visualization_Basics.ipynb)**
 
     - Plotting of Pandas Df
