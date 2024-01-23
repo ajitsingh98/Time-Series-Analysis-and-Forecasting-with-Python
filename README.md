@@ -70,6 +70,3 @@
     - LSTMs for time series forecasting
     - CNNs for time series forecasting(under construction)
     - Transformers for time series forecasting(under construction)
-
-
-
