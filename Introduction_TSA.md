@@ -8,7 +8,7 @@ Contents
 - [Time Series to Supervised Learning Problem](#time-series-to-supervised-learning-problem)
 - [Deep Learning for Time Series Forecasting](#deep-learning-for-time-series-forecasting)
 
-## 1. Taxonomy of Time Series Analysis Domain
+## Taxonomy of Time Series Analysis Domain
 
 Topics:
 
@@ -109,7 +109,7 @@ The number of variables may differ between the inputs and outputs, e.g. the data
 ---
 
 
-## 2. Best Practices for Forecasting Model Development
+## Best Practices for Forecasting Model Development
 
 Topics:
 
@@ -339,7 +339,7 @@ Hyperparameters:
 
 ---
 
-## 4. Time Series to Supervised Learning Problem
+## Time Series to Supervised Learning Problem
 
 Time series forecasting can be framed as a supervised learning problem. This re-framing of your time series data allows you access to the suite of standard linear and nonlinear machine learning algorithms on your problem.
 
@@ -464,7 +464,7 @@ There are several ways to prepare the time series data for supervised machine le
 ---
 
 
-## 5. Deep Learning for Time Series Forecasting
+## Deep Learning for Time Series Forecasting
 
 Deep learning neural networks are able to automatically learn arbitrary complex mappings from inputs to outputs and support multiple inputs and outputs. These are powerful features that offer a lot of promise for time series forecasting, particularly on problems with complex-nonlinear dependencies, multivalent inputs, and multi-step forecasting. These features along with the capabilities of more modern neural networks may offer great promise such as the automatic feature learning provided by convolutional neural networks and the native support for sequence data in recurrent neural networks. 
 
