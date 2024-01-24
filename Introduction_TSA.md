@@ -102,7 +102,7 @@ The number of variables may differ between the inputs and outputs, e.g. the data
 ### 8. Contiguous vs. Discontiguous
 
 - **Contiguous** - A time series where the observations are uniform over time may be described as contiguous. Many time series problems have contiguous observations, such as one observation each hour, day, month or year.
-- **Discontiguous** - A time series where the observations are not uniform over time may be described as discontiguous. The lack of uniformity of the observations may be caused by missing or corrupt values. It may also be a feature of the problem where observations are only made available sporadically or at increasingly or decreasingly spaced time intervals.
+- **Discontiguous** - A time series where the observations are not uniform over time may be described as discontiguous. The lack of uniformity of the observations may be ca used by missing or corrupt values. It may also be a feature of the problem where observations are only made available sporadically or at increasingly or decreasingly spaced time intervals.
 
 **Are your observations contiguous or discontiguous?**
 
@@ -199,7 +199,7 @@ This involves training a new final model on all available historical data (train
 - Save the model to file for later use in making predictions.
 - Incorporate the model into software for making predictions.
 
-
+---
 
 ## 3. Simple and Classical Forecasting Methods
 
@@ -337,6 +337,7 @@ Hyperparameters:
 - Seasonality Type: Additive or multiplicative.
 - Period: Time steps in seasonal period.
 
+---
 
 ## 4. Time Series to Supervised Learning Problem
 
@@ -460,6 +461,8 @@ Specifically, that a supervised model only has X1 to work with in order to predi
 
 There are several ways to prepare the time series data for supervised machine learning algorithms.
 
+---
+
 
 ## 5. Deep Learning for Time Series Forecasting
 
@@ -518,6 +521,7 @@ The above capabilities of different models can also be combined, such as in the 
 
 - Hybrid models efficiently combine the diverse capabilities of different architectures.
 
+---
 
 
 
