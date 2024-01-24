@@ -4,7 +4,7 @@
 
 ## Contents
 
-- **[Introduction to Time Series Analysis](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Introduction_TSA.md)**
+- **[Introduction to Time Series Analysis(Theory)](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Introduction_TSA.md)**
   
      - Taxonomy of Time Series Analysis Domain
      - Best Practices for Forecasting Model Selection
