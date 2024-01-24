@@ -1,7 +1,7 @@
 # Introduction to Time Series Analysis
 
 Contents
----
+--
 - [Taxonomy of Time Series Analysis Domain](#taxonomy-of-time-series-analysis-domain)
 - [Best Practices for Forecasting Model Development](#best-practices-for-forecasting-model-development)
 - [Simple and Classical Forecasting Methods](#simple-and-classical-forecasting-methods)
@@ -141,10 +141,10 @@ Define your time series problem. Some topics to consider and motivating question
 8. *Contiguous vs. Discontiguous*: Are your observations contiguous or discontiguous?
 
 Some useful tools to help get answers include:
-- Data visualizations (e.g. line plots, etc.).
-- Statistical analysis (e.g. ACF/PACF plots, etc.).  
-- Domain experts.
-- Project stakeholders.
+- Data visualizations (e.g. line plots, etc.)
+- Statistical analysis (e.g. ACF/PACF plots, etc.)
+- Domain experts
+- Project stakeholders
 
 #### Step 2: Design Test Harness
 
@@ -175,18 +175,18 @@ This list is based on a univariate time series forecasting problem, but you can 
 
 Some data preparation schemes to consider include:
 
-- Differencing to remove a trend.
-- Seasonal differencing to remove seasonality.  
-- Standardize to center.
-- Normalize to rescale.
-- Power Transform to make normal.
+- Differencing to remove a trend
+- Seasonal differencing to remove seasonality
+- Standardize to center
+- Normalize to rescale
+- Power Transform to make normal
 
 This large amount of systematic searching can be slow to execute. Some ideas to speed up the evaluation of models include:
 
-- Use multiple machines in parallel via cloud hardware (such as Amazon EC2).
-- Reduce the size of the train or test dataset to make the evaluation process faster.  
-- Use a more coarse grid of hyperparameters and circle back if you have time later.  
-- Perhaps do not refit a model for each step in walk-forward validation.
+- Use multiple machines in parallel via cloud hardware (such as Amazon EC2)
+- Reduce the size of the train or test dataset to make the evaluation process faster
+- Use a more coarse grid of hyperparameters and circle back if you have time later
+- Perhaps do not refit a model for each step in walk-forward validation
 
 
 #### Step 4: Finalize Model
@@ -266,9 +266,9 @@ Configuring a SARIMA requires selecting hyperparameters for both the trend and s
 
 There are three trend elements that require configuration. They are the same as the ARIMA model; specifically:
 
-- p: Trend autoregression order.  
-- d: Trend difference order.
-- q: Trend moving average order.
+- p: Trend autoregression order
+- d: Trend difference order
+- q: Trend moving average order
 
 **Seasonal Elements**
 
@@ -310,11 +310,11 @@ Hyperparameters:
 
 Hyperparameters:
 
-- Alpha (α): Smoothing factor for the level. 
-- Beta (β): Smoothing factor for the trend.
-- Trend Type: Additive or multiplicative.
-- Dampen Type: Additive or multiplicative.  
-- Phi (φ): Damping coefficient.
+- Alpha (α): Smoothing factor for the level
+- Beta (β): Smoothing factor for the trend
+- Trend Type: Additive or multiplicative
+- Dampen Type: Additive or multiplicative
+- Phi (φ): Damping coefficient
 
 3. Triple Exponential Smoothing
 
@@ -328,14 +328,14 @@ ality.
 
 Hyperparameters:
 
-- Alpha (α): Smoothing factor for the level.  
-- Beta (β): Smoothing factor for the trend.
-- Trend Type: Additive or multiplicative.
-- Dampen Type: Additive or multiplicative.  
-- Phi (φ): Damping coefficient.
-- Gamma (γ): Smoothing factor for the seasonality.  
-- Seasonality Type: Additive or multiplicative.
-- Period: Time steps in seasonal period.
+- Alpha (α): Smoothing factor for the level
+- Beta (β): Smoothing factor for the trend
+- Trend Type: Additive or multiplicative
+- Dampen Type: Additive or multiplicative
+- Phi (φ): Damping coefficient
+- Gamma (γ): Smoothing factor for the seasonality
+- Seasonality Type: Additive or multiplicative
+- Period: Time steps in seasonal period
 
 ---
 
@@ -351,13 +351,13 @@ $$Y =f(X)$$
 
 Below is a contrived example of a supervised learning dataset where each row is an observation comprised of one input variable (X) and one output variable to be predicted (y).
 
-| X | y   |
-|---|-----|
-| 5 | 0.9 |
-| 4 | 0.8 |
-| 5 | 1.0 |
-| 3 | 0.7 |
-| 4 | 0.9 |
+                                                                    | X | y   |
+                                                                    |---|-----|
+                                                                    | 5 | 0.9 |
+                                                                    | 4 | 0.8 |
+                                                                    | 5 | 1.0 |
+                                                                    | 3 | 0.7 |
+                                                                    | 4 | 0.9 |
 
 Supervised learning problems can be further grouped into regression and classification problems.
 
@@ -368,24 +368,24 @@ Supervised learning problems can be further grouped into regression and classifi
 
 Time series data can be phrased as supervised learning. Given a sequence of numbers for a time series dataset, we can restructure the data to look like a supervised learning problem.
 
-| time | measure |
-|------|---------|
-| 1    | 100     |
-| 2    | 110     |
-| 3    | 108     |
-| 4    | 115     |
-| 5    | 120     |
+                                                                    | time | measure |
+                                                                    |------|---------|
+                                                                    | 1    | 100     |
+                                                                    | 2    | 110     |
+                                                                    | 3    | 108     |
+                                                                    | 4    | 115     |
+                                                                    | 5    | 120     |
 
 We can restructure this time series dataset as a supervised learning problem by using the value at the previous time step to predict the value at the next time step. Re-organizing the time series dataset this way, the data would look as follows:
 
-| X   | y   |
-|-----|-----|
-| ?   | 100 |
-| 100 | 110 |
-| 110 | 108 |
-| 108 | 115 |
-| 115 | 120 |
-| 120 | ?   |
+                                                                        | X   | y   |
+                                                                        |-----|-----|
+                                                                        | ?   | 100 |
+                                                                        | 100 | 110 |
+                                                                        | 110 | 108 |
+                                                                        | 108 | 115 |
+                                                                        | 115 | 120 |
+                                                                        | 120 | ?   |
 
 - We can delete 1st and last row since they have missing value before training a supervised model.
 - The use of prior time steps to predict the next time step is called the sliding window method.
@@ -399,37 +399,37 @@ The number of observations recorded for a given time in a time series dataset ma
 
 For example suppose we have following dataset:
 
-| time | measure1 | measure2 |
-|------|----------|----------|
-| 1    | 0.2      | 88       |
-| 2    | 0.5      | 89       |
-| 3    | 0.7      | 87       |
-| 4    | 0.4      | 88       |
-| 5    | 1.0      | 90       |
+                                                                    | time | measure1 | measure2 |
+                                                                    |------|----------|----------|
+                                                                    | 1    | 0.2      | 88       |
+                                                                    | 2    | 0.5      | 89       |
+                                                                    | 3    | 0.7      | 87       |
+                                                                    | 4    | 0.4      | 88       |
+                                                                    | 5    | 1.0      | 90       |
 
 Let’s also assume that we are only concerned with predicting measure2. We can re-frame this time series dataset as a supervised learning problem with a window width of one.
 
-| X1  | X2  | X3  | y   |
-|-----|-----|-----|-----|
-| ?   | ?   | 0.2 | 88  |
-| 0.2 | 88  | 0.5 | 89  |
-| 0.5 | 89  | 0.7 | 87  |
-| 0.7 | 87  | 0.4 | 88  |
-| 0.4 | 88  | 1.0 | 90  |
-| 1.0 | 90  | ?   | ?   |
+                                                                        | X1  | X2  | X3  | y   |
+                                                                        |-----|-----|-----|-----|
+                                                                        | ?   | ?   | 0.2 | 88  |
+                                                                        | 0.2 | 88  | 0.5 | 89  |
+                                                                        | 0.5 | 89  | 0.7 | 87  |
+                                                                        | 0.7 | 87  | 0.4 | 88  |
+                                                                        | 0.4 | 88  | 1.0 | 90  |
+                                                                        | 1.0 | 90  | ?   | ?   |
 
 We can see that as in the univariate time series example above, we may need to remove the first and last rows in order to train our supervised learning model. 
 
 If we need to predict both `measure1` and `measure2` for the next time step. We can transform the data as follows:
 
-| X1  | X2  | y1  | y2  |
-|-----|-----|-----|-----|
-| ?   | ?   | 0.2 | 88  |
-| 0.2 | 88  | 0.5 | 89  |
-| 0.5 | 89  | 0.7 | 87  |
-| 0.7 | 87  | 0.4 | 88  |
-| 0.4 | 88  | 1.0 | 90  |
-| 1.0 | 90  | ?   | ?   |
+                                                                        | X1  | X2  | y1  | y2  |
+                                                                        |-----|-----|-----|-----|
+                                                                        | ?   | ?   | 0.2 | 88  |
+                                                                        | 0.2 | 88  | 0.5 | 89  |
+                                                                        | 0.5 | 89  | 0.7 | 87  |
+                                                                        | 0.7 | 87  | 0.4 | 88  |
+                                                                        | 0.4 | 88  | 1.0 | 90  |
+                                                                        | 1.0 | 90  | ?   | ?   |
 
 ### Sliding Window With Multiple Steps
 
@@ -438,24 +438,24 @@ If we need to predict both `measure1` and `measure2` for the next time step. We 
 
 Consider this univariate time series dataset:
 
-| time | measure |
-|------|---------|
-| 1    | 100     |
-| 2    | 110     |
-| 3    | 108     |
-| 4    | 115     |
-| 5    | 120     |
+                                                                            | time | measure |
+                                                                            |------|---------|
+                                                                            | 1    | 100     |
+                                                                            | 2    | 110     |
+                                                                            | 3    | 108     |
+                                                                            | 4    | 115     |
+                                                                            | 5    | 120     |
 
 We can frame this time series as a two-step forecasting dataset for supervised learning with a window width of one, as follows:
 
-| X1  | y1  | y2  |
-|-----|-----|-----|
-| ?   | 100 | 110 |
-| 100 | 110 | 108 |
-| 110 | 108 | 115 |
-| 108 | 115 | 120 |
-| 115 | 120 | ?   |
-| 120 | ?   | ?   |
+                                                                            | X1  | y1  | y2  |
+                                                                            |-----|-----|-----|
+                                                                            | ?   | 100 | 110 |
+                                                                            | 100 | 110 | 108 |
+                                                                            | 110 | 108 | 115 |
+                                                                            | 108 | 115 | 120 |
+                                                                            | 115 | 120 | ?   |
+                                                                            | 120 | ?   | ?   |
 
 Specifically, that a supervised model only has X1 to work with in order to predict both y1 and y2. 
 
