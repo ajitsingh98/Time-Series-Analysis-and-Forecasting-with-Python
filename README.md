@@ -4,6 +4,8 @@
 
 ## Contents
 
+- **[Datasets Info](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Introduction_TSA.md)**
+
 - **[Introduction to Time Series Analysis(Theory)](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Introduction_TSA.md)**
   
      - Taxonomy of Time Series Analysis Domain
@@ -64,9 +66,9 @@
     - Seasonal Autoregressive Integrated Moving Averages(SARIMA)
     - Seasonal AutoRegressive Integrated Moving Average with EXogenous Variable.
 
-- **[Time Series Forecasting with Deep Learning](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time-Series-Forecasting-Deep-Learning.ipynb)**
+- **[Time Series Forecasting with LSTMs](#)**
 
     - MLPs for time series forecasting(under construction)
-    - LSTMs for time series forecasting
-    - CNNs for time series forecasting(under construction)
+    - [LSTMs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time-Series-Forecasting-With-LSTMs.ipynb)
+    - [CNNs for time series forecasting(under construction)](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time-Series-Forecasting-With-LSTMs.ipynb)
     - Transformers for time series forecasting(under construction)
