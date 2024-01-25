@@ -52,7 +52,7 @@
     - Double EWMA
     - Holt-Winters Method(Triple EWMA)
 
-- **[Time Series Forecasting Classical Methods](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_General_Methods.ipynb)**
+- **[Time Series Forecasting Classical Methods](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_Traditional_Methods.ipynb)**
 
     - Forecasting with Holts-Winter Method
     - Autocorrelation function(ACF)
@@ -68,7 +68,7 @@
 
 - **[Time Series Forecasting with LSTMs](#)**
 
-    - MLPs for time series forecasting(under construction)
+    - [MLPs for time series forecasting(under construction)](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time-Series-Forecasting-With-MLPs.ipynb)
     - [LSTMs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time-Series-Forecasting-With-LSTMs.ipynb)
     - [CNNs for time series forecasting(under construction)](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time-Series-Forecasting-With-LSTMs.ipynb)
     - Transformers for time series forecasting(under construction)
