@@ -69,6 +69,6 @@
 - **[Time Series Forecasting with LSTMs](#)**
 
     - [MLPs for time series forecasting(under construction)](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time-Series-Forecasting-With-MLPs.ipynb)
-    - [LSTMs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time-Series-Forecasting-With-LSTMs.ipynb)
-    - [CNNs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time-Series-Forecasting-With-CNNs.ipynb)
+    - [LSTMs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_LSTMs.ipynb)
+    - [CNNs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_CNNs.ipynb)
     - Transformers for time series forecasting(under construction)
