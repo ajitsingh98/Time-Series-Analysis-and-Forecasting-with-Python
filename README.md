@@ -66,7 +66,7 @@
     - Seasonal Autoregressive Integrated Moving Averages(SARIMA)
     - Seasonal AutoRegressive Integrated Moving Average with EXogenous Variable.
 
-- **[Time Series Forecasting with LSTMs](#)**
+- **[Time Series Forecasting with Deep Learning](#)**
 
     - [MLPs for time series forecasting(under construction)](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time-Series-Forecasting-With-MLPs.ipynb)
     - [LSTMs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_LSTMs.ipynb)
