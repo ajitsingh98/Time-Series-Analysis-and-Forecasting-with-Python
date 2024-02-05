@@ -1,12 +1,16 @@
-# Time-Series-Analysis-and-Forecasting-with-Python
-<p>Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data. Time series forecasting is the use of a model to predict future values based on previously observed values.</p>
-<p>Time series are widely used for non-stationary data, like economics, weather, stock price, and retail sales in this post. We will demonstrate different approaches for forecasting retail sales time series. Let’s get started!</p>
+# Time-Series-Analysis-and-Forecasting-with-Python 📈📉📊⏰
 
-## Contents
+🤘 Welcome to the comprehensive guide on Time-Series Analysis and Forecasting using Python 👨🏻‍💻. This repository is designed to equip you with the knowledge, tools, and techniques to tackle the challenges of analyzing and forecasting time-series data. Whether you're a beginner curious about the basics of time-series analysis or an advanced practitioner aiming to delve into the depths of forecasting models, this guide has something for you🫱🏻‍🫲🏼.
 
-- **[Datasets Info](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Datasets_Info.md)**
+🚀 The contents are structured to provide a logical progression, starting with an introduction to the concepts and practices of time-series analysis, followed by data visualization techniques, exploratory data analysis (EDA), and more in-depth data analysis. We then transition 💥 into various forecasting methodologies, including classical statistical models, cutting-edge deep learning approaches, and the application of Facebook's Prophet tool for both univariate and multivariate forecasting 🌟 scenarios.
 
-- **[Introduction to Time Series Analysis(Theory)](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Introduction_TSA.md)**
+Cheers!! 🍻
+
+## Contents 📄🗒
+
+- **[Datasets Info](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Datasets_Info.md)📋**
+
+- **[Introduction to Time Series Analysis(Theory)](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Introduction_TSA.md)🕰**
   
      - Taxonomy of Time Series Analysis Domain
      - Best Practices for Forecasting Model Selection
@@ -14,7 +18,7 @@
      - Time Series to Supervised Learning Problem
      - Deep Learning for Time Series Forecasting
 
-- **[Time Series Data Visualization](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Data_Visualization_Basics.ipynb)**
+- **[Time Series Data Visualization](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Data_Visualization_Basics.ipynb)📉**
 
     - Plotting of Pandas Df
     - Adding title
@@ -27,7 +31,7 @@
     - Major and Minor axis values
     - Gridlines
 
-- **[Time Series EDA](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Data_EDA.ipynb)**
+- **[Time Series EDA](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Data_EDA.ipynb)📊**
     
     - Introduction with time series data
     - Time resampling
@@ -38,7 +42,7 @@
     - Rolling window mean
     - Expanding window mean/cumulative mean
 
-- **[Time Series Data Analysis](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Data_Analysis.ipynb)**
+- **[Time Series Data Analysis](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Data_Analysis.ipynb)💹**
 
     - Introduction to statsmodels
     - Hodrick Prescott filter - Trend/cyclical components
@@ -52,7 +56,7 @@
     - Double EWMA
     - Holt-Winters Method(Triple EWMA)
 
-- **[Time Series Forecasting Classical Methods](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_Traditional_Methods.ipynb)**
+- **[Time Series Forecasting Classical Methods](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_Traditional_Methods.ipynb)🤖**
 
     - Forecasting with Holts-Winter Method
     - Autocorrelation function(ACF)
@@ -66,12 +70,12 @@
     - Seasonal Autoregressive Integrated Moving Averages(SARIMA)
     - Seasonal AutoRegressive Integrated Moving Average with EXogenous Variable.
 
-- **[Time Series Forecasting with Deep Learning](#)**
+- **[Time Series Forecasting with Deep Learning](#)🕸️**
 
     - [MLPs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_MLPs.ipynb)
     - [LSTMs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_LSTMs.ipynb)
     - [CNNs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_CNNs.ipynb)
     - Transformers for time series forecasting(under construction)
  
-- **[Time Series Forecasting with FBProphet](#)**
+- **[Time Series Forecasting with FBProphet](#)🎯**
     -  [Univariate and Multivariate Time Series Forecasting With FBProphet](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_Prophet.ipynb)
