@@ -79,3 +79,6 @@ Cheers!! 🍻
  
 - **[Time Series Forecasting with FBProphet](#)🎯**
     -  [Univariate and Multivariate Time Series Forecasting With FBProphet](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_Prophet.ipynb)
+
+- **[AutoML For Time Series Forecasting](#)🦾**
+    -  [Automating Time Series Forecsting with FLAML](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Automating_Time_Series_Forecsting_with_FLAML.ipynb)
