@@ -1,10 +1,25 @@
 # Time-Series-Analysis-and-Forecasting-with-Python 📈📉📊⏰
 
-🤘 Welcome to the comprehensive guide on Time-Series Analysis and Forecasting using Python 👨🏻‍💻. This repository is designed to equip you with the knowledge, tools, and techniques to tackle the challenges of analyzing and forecasting time-series data. Whether you're a beginner curious about the basics of time-series analysis or an advanced practitioner aiming to delve into the depths of forecasting models, this guide has something for you🫱🏻‍🫲🏼.
+🤘 Welcome to the most comprehensive, one-stop guide on **Time-Series Analysis, Forecasting, and Machine Learning** using Python 👨🏻‍💻. 
 
-🚀 The contents are structured to provide a logical progression, starting with an introduction to the concepts and practices of time-series analysis, followed by data visualization techniques, exploratory data analysis (EDA), and more in-depth data analysis. We then transition 💥 into various forecasting methodologies, including classical statistical models, cutting-edge deep learning approaches, and the application of Facebook's Prophet tool for both univariate and multivariate forecasting 🌟 scenarios.
+This repository is designed to take you from a complete beginner to an advanced practitioner. Whether you are dealing with classic forecasting (ARIMA, Prophet), framing time series as supervised machine learning (XGBoost, LightGBM), diving into state-of-the-art Deep Learning (LSTMs, CNNs, Transformers), or tackling advanced industrial use-cases like **Anomaly Detection**, **Clustering**, and **Classification**—this guide has everything you need in one place 🫱🏻‍🫲🏼.
+
+🚀 The contents are structured logically: starting with foundational EDA and statistical analysis, moving through classical methodologies, and transitioning 💥 into cutting-edge machine learning and AutoML (FLAML) frameworks.
 
 Cheers!! 🍻
+
+## 💡 Quick Model Comparison Guide
+
+Not sure which model to use for your forecasting task? Here is a quick organic comparison of the approaches covered in this repository to help you decide:
+
+| Approach / Model | Complexity | Best Suited For | Pros | Cons |
+| :--- | :---: | :--- | :--- | :--- |
+| **Statistical (ARIMA/SARIMAX)** | Low | Small datasets, clear trends/seasonalities. | Highly interpretable, strong mathematical foundation. | Fails on complex non-linear patterns; requires strict stationarity. |
+| **Tree-Based ML (XGBoost/LGBM)** | Medium | Tabularized time series with many external features. | Fast, highly accurate, handles non-linearities well. | Requires manual feature engineering (lags, rolling stats). |
+| **Deep Learning (LSTMs/CNNs)** | High | Large datasets, complex sequential patterns. | Learns temporal dependencies automatically. | Computationally expensive; "black box" nature. |
+| **Transformers** | Very High | Massive datasets, long-term forecasting. | State-of-the-art accuracy; captures long-range context via Self-Attention. | Extremely data-hungry; prone to overfitting on small data. |
+| **FBProphet** | Low | Business time series (holidays, daily/weekly seasonality). | Works out-of-the-box, handles missing data gracefully. | Less flexible for highly irregular or high-frequency data. |
+| **AutoML (FLAML)** | Low (Auto) | When you need a robust baseline without manual tuning. | Automatically finds the best algorithm and hyperparameters. | Computationally heavy during the search phase. |
 
 ## Contents 📄🗒
 
@@ -56,6 +71,29 @@ Cheers!! 🍻
     - Double EWMA
     - Holt-Winters Method(Triple EWMA)
 
+- **[Time Series Classification](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Classification.ipynb)🩺**
+    - Introduction with heartbeat classification
+    - Traditional ML classifier (Feature extraction + Random Forest)
+    - Deep Learning classifier (1D CNN in PyTorch)
+    - Signal visualization and evaluation metrics (Confusion Matrix, ROC Curve)
+
+- **[Time Series Anomaly Detection](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Anomaly_Detection.ipynb)🚨**
+    - Synthetic anomaly injection on real-world data
+    - Unsupervised Anomaly Detection using Isolation Forest
+    - Deep Learning Anomaly Detection using PyTorch Autoencoders (Reconstruction Loss)
+
+- **[Time Series Clustering](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Clustering.ipynb)🗂️**
+    - Dynamic Time Warping (DTW) distance metric
+    - K-Means with DTW using `tslearn`
+    - Grouping heartbeat sequences by shape profiles
+
+- **[Time Series Feature Engineering & Machine Learning](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Feature_Engineering_and_ML.ipynb)🤖**
+    - Re-framing time series as supervised learning
+    - Advanced Feature Engineering (Lags, rolling stats, cyclical time encoding)
+    - Time-series cross validation (TimeSeriesSplit)
+    - Tree-based regressors (XGBoost, LightGBM)
+    - Walk-forward validation evaluation
+
 - **[Time Series Forecasting Classical Methods](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_Traditional_Methods.ipynb)🤖**
 
     - Forecasting with Holts-Winter Method
@@ -75,10 +113,10 @@ Cheers!! 🍻
     - [MLPs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_MLPs.ipynb)
     - [LSTMs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_LSTMs.ipynb)
     - [CNNs for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_CNNs.ipynb)
-    - Transformers for time series forecasting(under construction)
+    - [Transformers for time series forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_Transformers.ipynb)
  
 - **[Time Series Forecasting with FBProphet](#)🎯**
     -  [Univariate and Multivariate Time Series Forecasting With FBProphet](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Time_Series_Forecasting_With_Prophet.ipynb)
 
-- **[AutoML For Time Series Forecasting](#)🦾**
-    -  [Automating Time Series Forecsting with FLAML](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Automating_Time_Series_Forecsting_with_FLAML.ipynb)
+- **[AutoML For Time Series Forecasting](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Automating_Time_Series_Forecasting_with_FLAML.ipynb)🦾**
+    -  [Automating Time Series Forecasting with FLAML](https://github.com/ajitsingh98/Time-Series-Analysis-and-Forecasting-with-Python/blob/master/Automating_Time_Series_Forecasting_with_FLAML.ipynb)

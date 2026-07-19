@@ -45,4 +45,11 @@
   - `sub metering 3`: Active energy for climate control systems (watt-hours of active energy).
 
 
+### 6. `ECG200_TRAIN.tsv` & `ECG200_TEST.tsv`
+- **Description**: This is the ECG200 dataset from the UCR Time Series Archive. Each time series represents the electrical activity recorded during a single heartbeat, used to classify the heartbeat as normal or abnormal (myocardial infarction).
+- **Shape**: 100 rows (Train) / 100 rows (Test), 97 columns.
+- **Columns**:
+  - `Column 0`: Class label (1.0 for normal heartbeat, -1.0 for myocardial infarction).
+  - `Columns 1 to 96`: Signal values at 96 sequential time steps.
+
 Each dataset can be used to illustrate different techniques and models in time series analysis and forecasting, ranging from basic methods to more advanced deep learning approaches. The variety in these datasets (from sales data to daily counts) provides a comprehensive resource for demonstrating different time series scenarios and methods.
